@@ -4,9 +4,6 @@
 
 This is a personal portfolio web application built using React and Tailwind CSS. It showcases information about the my skills, portfolio projects, and contact details.
 
-## Table of Contents
-
-
 /src
 |-- components
 |   |-- Contact.js
@@ -20,11 +17,11 @@ This is a personal portfolio web application built using React and Tailwind CSS.
 |-- ...
 
 
-
-### Technologies Used
+## Technologies Used
 
 - **React:** A JavaScript library for building user interfaces.
 - **Tailwind CSS:** A utility-first CSS framework for building modern designs.
+
 
 # Features
 
