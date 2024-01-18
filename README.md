@@ -3,6 +3,20 @@
 - [Technologies Used](#technologies-used)
 - [Features](#features)
 
+  ## Folder Structure
+/src
+|-- components
+|   |-- Contact.js
+|   |-- Home.js
+|   |-- NavBar.js
+|   |-- Portfolio.js
+|   |-- Skills.js
+|   |-- SocialLinks.js
+|-- App.js
+|-- index.js
+|-- ...
+
+
 ## Folder Structure
 
 ```markdown
