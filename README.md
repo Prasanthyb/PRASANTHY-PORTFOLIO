@@ -1,11 +1,13 @@
 # Portfolio App
 
 ## Description
-This is a personal portfolio web application built using React and Tailwind CSS. It showcases information about the developer, skills, portfolio projects, and contact details.
+
+This is a personal portfolio web application built using React and Tailwind CSS. It showcases information about the my skills, portfolio projects, and contact details.
 
 ## Table of Contents
 
-- [Folder Structure]
+## Folder Structure
+
 
 /src
 |-- components
@@ -18,6 +20,7 @@ This is a personal portfolio web application built using React and Tailwind CSS.
 |-- App.js
 |-- index.js
 |-- ...
+
 # Technologies Used
 
 ## React
@@ -26,14 +29,14 @@ This is a personal portfolio web application built using React and Tailwind CSS.
 
 # Features
 
-# Home: Introduction and welcome section.
+## Home: Introduction and welcome section.
 
-# Portfolio: Showcase of selected projects with details.
+## Portfolio: Showcase of selected projects with details.
 
-# Skills: Display of skills and technologies.
+## Skills: Display of skills and technologies.
 
-# Contact: Information and a form for contacting the developer.
+## Contact: Information and a form for contacting the developer.
 
-# NavBar: Navigation bar for easy access to different sections.
+## NavBar: Navigation bar for easy access to different sections.
 
-# SocialLinks: Links to the developer's social profiles.
+## SocialLinks: Links to the developer's social profiles.
