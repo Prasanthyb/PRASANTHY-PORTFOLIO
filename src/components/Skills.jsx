@@ -3,13 +3,17 @@ import React from "react";
 import html from "../assets/html.png";
 import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
+import typescript from "../assets/typescript.jpg";
 import reactImage from "../assets/react.png";
 import nextjs from "../assets/nextjs.png";
 import graphql from "../assets/graphql.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
+import node from "../assets/node.jpg";
+import mongo from "../assets/mongo.jpg";
+import sql from "../assets/sql.jpg";
 
-const Experience = () => {
+const Skills = () => {
   const techs = [
     {
       id: 1,
@@ -31,47 +35,72 @@ const Experience = () => {
     },
     {
       id: 4,
+      src: typescript,
+      title: "TypeScript",
+      style: "shadow-yellow-500",
+    },
+    {
+      id: 5,
       src: reactImage,
       title: "React",
       style: "shadow-blue-600",
     },
     {
-      id: 5,
-      src: tailwind,
-      title: "Tailwind",
-      style: "shadow-sky-400",
-    },
-    {
       id: 6,
       src: nextjs,
       title: "Next JS",
-      style: "shadow-white",
+      
+      style: "shadow-sky-400",
     },
     {
       id: 7,
-      src: graphql,
-      title: "GraphQL",
-      style: "shadow-pink-400",
+      src: tailwind,
+      title: "Tailwind",
+      style: "shadow-white",
     },
     {
       id: 8,
+      src: graphql,
+      title: "BootStrap",
+      style: "shadow-pink-400",
+    },
+    {
+      id: 9,
       src: github,
       title: "GitHub",
+      style: "shadow-gray-400",
+    },
+    {
+      id: 10,
+      src: node,
+      title: "Node Express JS",
+      style: "shadow-gray-400",
+    },
+    {
+      id: 11,
+      src: mongo,
+      title: "mongoDB",
+      style: "shadow-gray-400",
+    },
+    {
+      id: 12,
+      src: sql,
+      title: "MySQL",
       style: "shadow-gray-400",
     },
   ];
 
   return (
     <div
-      name="experience"
-      className="bg-gradient-to-b from-gray-800 to-black w-full h-screen"
+      name="skills"
+      className="bg-gradient-to-b from-gray-800 to-black w-full h-screen-96 "
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div>
-          <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
+          {/* <p className="text-4xl text-black font-bold border-b-4 border-black p-2 inline">
             Experience
-          </p>
-          <p className="py-6">These are the technologies I've worked with</p>
+          </p> */}
+          <p className="py-6 text-4xl">SKILLS</p>
         </div>
 
         <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
@@ -90,4 +119,4 @@ const Experience = () => {
   );
 };
 
-export default Experience;
+export default Skills;

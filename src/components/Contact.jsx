@@ -8,15 +8,15 @@ const Contact = () => {
     >
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-gray-500">
+          <p className="text-4xl text-black font-bold inline border-b-4 border-black">
             Contact
           </p>
-          <p className="py-6">Submit the form below to get in touch with me</p>
+          <p className="py-6 text-4xl">CONTACT</p>
         </div>
 
         <div className=" flex justify-center items-center">
           <form
-            action="https://getform.io/f/61c99527-2b15-42cf-9b55-ad37d2f7daa6"
+            action="https://formspree.io/f/mjvnvrrd"
             method="POST"
             className=" flex flex-col w-full md:w-1/2"
           >

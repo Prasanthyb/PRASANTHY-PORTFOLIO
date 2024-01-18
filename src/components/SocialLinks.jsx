@@ -12,7 +12,7 @@ const SocialLinks = () => {
           LinkedIn <FaLinkedin size={30} />
         </>
       ),
-      href: "https://linkedin.com",
+      href: "https://www.linkedin.com/in/prasanthy-bhaskaran-74ab1b2a3", // Added 'https://'
       style: "rounded-tr-md",
     },
     {
@@ -22,7 +22,7 @@ const SocialLinks = () => {
           GitHub <FaGithub size={30} />
         </>
       ),
-      href: "https://github.com/theyashpatel",
+      href: "https://github.com/Prasanthyb",
     },
     {
       id: 3,
@@ -31,7 +31,7 @@ const SocialLinks = () => {
           Mail <HiOutlineMail size={30} />
         </>
       ),
-      href: "mailto:foo@gmail.com",
+      href: "mailto:prasanthybhaskaran@gmail.com", // Added 'mailto:'
     },
     {
       id: 4,
@@ -45,6 +45,7 @@ const SocialLinks = () => {
       download: true,
     },
   ];
+  
 
   return (
     <div className="hidden lg:flex flex-col top-[35%] left-0 fixed">

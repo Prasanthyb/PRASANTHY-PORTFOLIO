@@ -1,5 +1,5 @@
 import React from "react";
-import HeroImage from "../assets/heroImage.png";
+import HeroImage from "../assets/heroImage.jpg";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 
@@ -14,10 +14,10 @@ const Home = () => {
           <h2 className="text-4xl sm:text-7xl font-bold text-white">
             I'm a Full Stack Developer
           </h2>
-          <p className="text-gray-500 py-4 max-w-md">
-            I have 8 years of experience building and desgining software.
-            Currently, I love to work on web application using technologies like
-            React, Tailwind, Next JS and GraphQL.
+          <p className="text-white py-4 max-w-md">
+          "From balancing books to crafting code, I've seamlessly pivoted from an accomplished accountant 
+          in India to a skilled full-stack developer in New Zealand. With a passion for precision and a newfound 
+           for elegant solutions, I bring a unique blend of financial insight and tech innovation to the Kiwi tech scene."
           </p>
 
           <div>
