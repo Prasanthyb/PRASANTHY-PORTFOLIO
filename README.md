@@ -1,9 +1,9 @@
-## Table of Contents
-- [Folder Structure](#folder-structure)
-- [Technologies Used](#technologies-used)
-- [Features](#features)
+# Portfolio App
 
-  ## Folder Structure
+## Description
+
+This is a personal portfolio web application built using React and Tailwind CSS. It showcases information about  my skills, portfolio projects, and contact details.
+
 /src
 |-- components
 |   |-- Contact.js
@@ -17,10 +17,22 @@
 |-- ...
 
 
-## Folder Structure
-
-```markdown
 ## Technologies Used
 
 - **React:** A JavaScript library for building user interfaces.
 - **Tailwind CSS:** A utility-first CSS framework for building modern designs.
+
+
+# Features
+
+## Home: Introduction and welcome section.
+
+## Portfolio: Showcase of selected projects with details.
+
+## Skills: Display of skills and technologies.
+
+## Contact: Information and a form for contacting the developer.
+
+## NavBar: Navigation bar for easy access to different sections.
+
+## SocialLinks: Links to the developer's social profiles.
