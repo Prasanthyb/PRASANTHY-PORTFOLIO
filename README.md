@@ -6,9 +6,6 @@ This is a personal portfolio web application built using React and Tailwind CSS.
 
 ## Table of Contents
 
-## Folder Structure
-
-
 /src
 |-- components
 |   |-- Contact.js
@@ -20,6 +17,7 @@ This is a personal portfolio web application built using React and Tailwind CSS.
 |-- App.js
 |-- index.js
 |-- ...
+
 
 # Technologies Used
 
