@@ -15,9 +15,12 @@ const Home = () => {
             I'm a Full Stack Developer
           </h2>
           <p className="text-white py-4 max-w-md">
-          "From balancing books to crafting code, I've seamlessly pivoted from an accomplished accountant 
-          in India to a skilled full-stack developer in New Zealand. With a passion for precision and a newfound 
-           for elegant solutions, I bring a unique blend of financial insight and tech innovation to the Kiwi tech scene."
+          "I specialise in crafting innovative web solutions that seamlessly 
+          integrate into today's digital landscape. With a strong passion for
+           technology and a commitment to excellence, I consistently exceed 
+           expectations with my projects. My portfolio showcases my ability to 
+           transform ideas into engaging 
+          user experiences, combining efficiency, elegance, and functionality."
           </p>
 
           <div>

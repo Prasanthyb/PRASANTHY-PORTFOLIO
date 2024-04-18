@@ -12,7 +12,11 @@ import tailwind from "../assets/tailwind.png";
 import node from "../assets/node.jpg";
 import mongo from "../assets/mongo.jpg";
 import sql from "../assets/sql.jpg";
-
+import mui from "../assets/material.png";
+import flutter from "../assets/flutter.jpg";
+import docker from "../assets/docker.png";
+import strapi from "../assets/strapi.png";
+import azure from "../assets/azure.jpg";
 const Skills = () => {
   const techs = [
     {
@@ -37,7 +41,7 @@ const Skills = () => {
       id: 4,
       src: typescript,
       title: "TypeScript",
-      style: "shadow-yellow-500",
+      style: "shadow-sky-500",
     },
     {
       id: 5,
@@ -50,43 +54,74 @@ const Skills = () => {
       src: nextjs,
       title: "Next JS",
       
-      style: "shadow-sky-400",
+      style: "shadow-white",
     },
     {
       id: 7,
       src: tailwind,
       title: "Tailwind",
-      style: "shadow-white",
+      style: "shadow-green-200",
     },
     {
       id: 8,
-      src: graphql,
-      title: "BootStrap",
-      style: "shadow-pink-400",
+      src: mui,
+      title: "Material UI",
+      style: "shadow-blue-800",
     },
+
     {
       id: 9,
+      src: graphql,
+      title: "BootStrap",
+      style: "shadow-purple-400",
+    },
+    {
+      id: 10,
       src: github,
       title: "GitHub",
       style: "shadow-gray-400",
     },
     {
-      id: 10,
+      id: 11,
       src: node,
       title: "Node Express JS",
-      style: "shadow-gray-400",
-    },
-    {
-      id: 11,
-      src: mongo,
-      title: "mongoDB",
-      style: "shadow-gray-400",
+      style: "shadow-green-200",
     },
     {
       id: 12,
+      src: mongo,
+      title: "mongoDB",
+      style: "shadow-green-600",
+    },
+    {
+      id: 13,
       src: sql,
       title: "MySQL",
+      style: "shadow-gray-500",
+    },
+    {
+      id: 14,
+      src: flutter,
+      title: "Flutter",
+      style: "shadow-blue-900",
+    },
+    {
+      id: 15,
+      src: docker,
+      title: "Docker",
       style: "shadow-gray-400",
+    },
+    {
+      id: 15,
+      src: strapi,
+      title: "Strapi",
+      style: "shadow-purple-900",
+    },
+    {
+      id: 16,
+      src: azure,
+      title: "Azure",
+      style: "shadow-sky-800",
     },
   ];
 
@@ -103,7 +138,8 @@ const Skills = () => {
           <p className="py-6 text-4xl">SKILLS</p>
         </div>
 
-        <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
+        <div className="w-full grid grid-cols-2 sm:grid-cols-5
+         gap-8 text-center py-8 px-12 sm:px-0">
           {techs.map(({ id, src, title, style }) => (
             <div
               key={id}
